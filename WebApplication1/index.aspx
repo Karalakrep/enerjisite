@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication1.index" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="WebApplication1.index" %>
 
 <!DOCTYPE html>
 
@@ -35,7 +36,7 @@
             <a href="slide.aspx" target="alan"><span class="fa fa-home mr-3"></span> Ana sayfa</a>
           </li>
           <li>
-              <a href="yatirim.aspx" target="alan"><span class="fa fa-user mr-3"></span> Yatırım Amacı</a>
+              <a href="elek.aspx" target="alan"><span class="fa fa-user mr-3"></span> Yatırım Amacı</a>
           </li>
           <li>
             <a href="arac.aspx" target="alan"><span class="fa fa-sticky-note mr-3"></span> Yatırım Araçları</a>
@@ -44,10 +45,10 @@
             <a href="hesapla.aspx" target="alan"><span class="fa fa-sticky-note mr-3"></span> Kar Hesaplama</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Settings</a>
+            <a href="altyatırım.aspx" target="alan"><span class="fa fa-paper-plane mr-3"></span>Enerji-Elektrik </a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Information</a>
+            <a href="index.html" target="_blank"><span class="fa fa-paper-plane mr-3"></span> Yatırıma başla</a>
           </li>
         </ul>
 
